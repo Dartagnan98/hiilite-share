@@ -13,7 +13,7 @@ Each folder is independent — clone the repo or just download the folder you wa
 | 4 | `4-heartbeat-tmux/` | Persistent Claude Code session: tmux + launchd + 3x daily proactive heartbeat | 30 min |
 | 5 | `5-adobe-mcp/` | Pointer to Adobe Creative Suite MCP (Photoshop + Premiere + AE) | 15 min |
 | 6 | `6-wordpress-helpers/` | WP-CLI ops, Gravity Forms, Yoast schema, plugin scaffold patterns | 30 min |
-| 7 | `7-ctrl-motion-lite/` | Recipe for forking the CRM into a local "projects + tasks + AI notes" app | 3+ hr |
+| 7 | `7-ctrl-motion-lite/` | Forkable code — local "projects + tasks + AI meeting notes + dispatch" app, repo at [Dartagnan98/motion-lite](https://github.com/Dartagnan98/motion-lite) | 15 min |
 
 ## Prerequisites (the "what you need to connect" list)
 
@@ -29,7 +29,7 @@ Each folder has its own `SETUP.md` with specifics. Top-level summary:
 | Meta Developer app + ad account access | Run ad audits/launches | ads-meta in 1 |
 | Google Ads dev token + OAuth | Same for Google Ads | ads-google in 1 |
 | WordPress site with REST API + admin password | Optional — for WP automation | 6 |
-| Supabase project | Only if you fork ctrl-motion-lite | 7 |
+| (nothing extra) | motion-lite uses local SQLite — Anthropic key is the only required service | 7 |
 
 ## Install style
 
