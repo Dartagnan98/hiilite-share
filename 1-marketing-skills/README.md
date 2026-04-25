@@ -2,6 +2,8 @@
 
 59 Claude Code skills for paid ads, SEO, CRO, copywriting, strategy, and frontend polish. Drop them into `~/.claude/skills/` and they're invokable via `/<skill-name>` or auto-trigger when context matches.
 
+> **Pairs with [motion-lite](https://github.com/Dartagnan98/motion-lite)** — a local-first productivity + dispatch app whose `/agents` page wires sub-agents to these skills. Install this bundle first, then run motion-lite, and the agents have something real to call. Standalone use also works — Claude Code will invoke any of these on its own.
+
 ## Install
 
 ```bash
