@@ -72,7 +72,7 @@ Everything Meta: Facebook + Instagram, Advantage+, CAPI, fatigue tracking.
 
 | Skill | What it does |
 |---|---|
-| `hormozi-brain` | Full Hormozi knowledge base — 56 files covering Leads, Offers, Sales, Ops, Money Models, Management. ~720K of structured reference. Use for offer design, pricing, ad angles, sales scripts, business decisions. |
+| `hormozi-brain` | Full Hormozi knowledge base. See breakdown below. |
 | `marketing-psychology` | Behavioral psych applied to marketing — bias, persuasion, decision architecture. |
 | `pricing-strategy` | Pricing models, anchoring, tiering, payment plans, deal structure. |
 | `launch-strategy` | Product / offer launch playbooks — pre-launch, launch week, post-launch. |
@@ -132,6 +132,53 @@ Everything Meta: Facebook + Instagram, Advantage+, CAPI, fatigue tracking.
 ### Meta-skill: `ads`
 
 `ads` is an aggregator that routes to the right `ads-*` skill based on context. Use `/ads` if you don't know which platform skill to invoke.
+
+---
+
+## Inside `hormozi-brain` (the strategy spine)
+
+This isn't a prompt — it's a structured library Claude reads when you ask offer / pricing / sales / ops questions. ~720K of organized reference broken into 6 domains:
+
+**Leads** — `core-4-methods`, `paid-ads`, `cold-outreach`, `warm-outreach`, `content-method`, `email-marketing`, `referrals`, `lead-magnets`, `copy-hacks`, `benchmarks`
+
+**Offers** — `grand-slam-offer`, `value-equation`, `pricing`, `bonuses-scarcity`, `guarantees`, `naming-niching`, `delivery-cube`
+
+**Sales** — `closer-framework`, `objection-handling`, `closing-techniques`, `negotiation`, `tone-techniques`, `conviction`, `sales-multipliers`, `sales-teams`, `benchmarks-quotes`
+
+**Money Models** — `value-equation`, `payback-period`, `client-financed-acquisition`, `gross-profit`, `core-economics`, `continuity`, `billing-retention`, `offer-types`, `money-model-structure`, `wealth-building`
+
+**Operations** — `growth-stages`, `scaling`, `systems`, `diagnostics`, `focus`
+
+**Management** — `hiring`, `firing`, `compensation`, `leadership`, `talent`, `partnerships`, `hr-framework`
+
+Plus top-level: `general-wisdom`, `mistakes-and-lessons`, `decisions-and-patterns`, `business-breakdowns`, `benchmarks-by-industry`, `scripts-and-swipes`, `content-creation-system`, `portfolio-and-investing`.
+
+## Inside `direct-response` (the execution engine)
+
+Jeremy Haynes MIM-style execution playbook. Pairs with `hormozi-brain` — Hormozi is the *what*, direct-response is the *how*. Organized by domain:
+
+**Ad Creation** — concepts, hooks, formats
+**Ad Strategies** — campaign structure, testing, scaling logic
+**Meta Ads** — `objectives`, `placements`, `retargeting`, `instagram-native`, `messaging-mastery`, `in-market-demographics`
+**Google Ads** — Search, PMax, YouTube playbooks
+**TikTok** — native creative, Spark Ads, attribution
+**Funnels** — `vsl`, `webinar`, `book-funnel`, `challenge-funnel`, `dsl-deck-sales-letter`, `low-ticket-to-high-ticket`, `backend-selling`, `confirmation-pages`
+**Scaling** — `scaling-framework`, `bidding-strategies`, `budget-rules`, `automated-rules`, `pixel-conditioning`, `cro-split-testing`
+**Psychology** — `marketing-triggers`, `persuasion-frameworks`, `market-awareness`, `emotional-manipulators`
+**Copywriting** — long-form, short-form, ad copy patterns
+**Email** — sequences, broadcast, deliverability
+**Page Building** — landing page architecture, layout patterns
+**Sales** — closing, objection handling for direct-response funnels
+**Auditing** — what to look at when a campaign isn't working
+**Mindset** — operator-level decision making
+**Agency Ops** — for running this for clients
+**AI Content** — using AI for direct-response output
+
+---
+
+## The brain underneath
+
+Both `hormozi-brain` and `direct-response` are static reference packs. For a *live, queryable* knowledge graph over your own files (clients, projects, sessions, decisions), the brain layer is **graphify** — a separate skill that turns any folder of markdown/code/docs into a clustered knowledge graph Claude queries before answering. Not bundled here (it's its own tool), but ask Dartagnan if you want it — that's how the full brain model works in practice.
 
 ---
 
