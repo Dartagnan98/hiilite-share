@@ -1,0 +1,6 @@
+{
+  "_comment": "Map phone numbers (E.164 format with +) or email addresses to person folder names. The folder name becomes ~/.brand-voice/comms/<name>/. Use lowercase short names. Add as many as you want.",
+  "+15551234567": "alex",
+  "+15559876543": "morgan",
+  "boss@workco.com": "boss"
+}

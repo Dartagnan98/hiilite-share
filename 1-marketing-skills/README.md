@@ -69,6 +69,7 @@ Everything Meta: Facebook + Instagram, Advantage+, CAPI, fatigue tracking.
 | `direct-response` | Jeremy Haynes MIM execution engine. Ad strategy, funnels, scaling, copy, email sequences, psychology, CRO. Pairs with `hormozi-brain`. |
 | `cold-email` | Cold outbound email sequences — subject lines, opens, deliverability patterns. |
 | `email-sequence` | Lifecycle email — welcome series, nurture, re-engagement, post-purchase. |
+| `imessage` | Mac-only. Pulls your iMessage history, analyzes how you actually write, writes `~/.brand-voice/brand-voice.md`. Every other skill above prepends that file to its prompt so output stays in your voice. Also reads inbound, drafts replies, and (with confirmation) sends. See `skills/imessage/README.md`. |
 
 ### Strategy & Frameworks
 
