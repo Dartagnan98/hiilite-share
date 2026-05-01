@@ -14,6 +14,7 @@ Each folder is independent — clone the repo or just download the folder you wa
 | 5 | `5-adobe-mcp/` | Pointer to Adobe Creative Suite MCP (Photoshop + Premiere + AE) | 15 min |
 | 6 | `6-wordpress-helpers/` | WP-CLI ops, Gravity Forms, Yoast schema, plugin scaffold patterns | 30 min |
 | 7 | `7-ctrl-motion-lite/` | Forkable code — local "projects + tasks + AI meeting notes + dispatch" app, repo at [Dartagnan98/motion-lite](https://github.com/Dartagnan98/motion-lite) | 15 min |
+| 9 | `9-apple-reminders/` | Pointer + skill for Apple Reminders MCP — read/create/complete reminders that sync to your iPhone via iCloud | 5 min |
 
 ## Prerequisites (the "what you need to connect" list)
 
